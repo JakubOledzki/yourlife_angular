@@ -8,12 +8,18 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { RegisterComponent } from './register/register.component';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
+import { LogoutComponent } from './logout/logout.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
-    RegisterComponent
+    RegisterComponent,
+    LoginComponent,
+    LogoutComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

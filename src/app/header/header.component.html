@@ -1,0 +1,5 @@
+<div class="container">
+    Hello world <br/>
+     <div *ngIf="this.authenticationService.isUserLoggedIn()">You are login</div>
+     <div *ngIf="!this.authenticationService.isUserLoggedIn()">You must login</div>
+</div>
